@@ -37,6 +37,7 @@ export default {
         display: flex;
         justify-content: center;
         gap: 60px;
+        position: relative;
         .buy-card{
             display: flex;
             justify-content: center;

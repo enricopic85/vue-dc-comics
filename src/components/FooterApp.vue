@@ -1,13 +1,15 @@
 <template>
    <footer>
        <top-footer/>
+       <central-footer/>
    </footer>
 </template>
 
 <script>
+import CentralFooter from './CentralFooter.vue'
 import TopFooter from './TopFooter.vue'
 export default {
-  components: { TopFooter },
+  components: { TopFooter, CentralFooter },
     
 }
 </script>
