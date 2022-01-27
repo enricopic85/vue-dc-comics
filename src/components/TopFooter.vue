@@ -42,7 +42,7 @@ export default {
             display: flex;
             justify-content: center;
             align-items: center;
-            gap: 5px;
+            gap: 10px;
             color: white;
             img{
                 width: 40px;
