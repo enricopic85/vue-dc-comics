@@ -30,7 +30,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '@/style/variables.scss';
+@import '@/../style/variables.scss';
     .top-footer{
         background-color: rgb(55, 55, 182);
         width: 100%;

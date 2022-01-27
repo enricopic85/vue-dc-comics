@@ -53,6 +53,9 @@ export default {
             font-weight: 900px;
             font-family: 'Montserrat', sans-serif;
             font-size: 18px;
+            p{
+                font-weight: 700;
+            }
         }
     }
 </style>

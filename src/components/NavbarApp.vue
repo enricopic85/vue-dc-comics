@@ -44,6 +44,7 @@ export default {
                 list-style: none;
                 height: 100px;
                 font-family: 'Montserrat', sans-serif;
+                font-weight: 900;
                 &:hover{
                      border-bottom: 5px solid blue;
                      color: blue;
