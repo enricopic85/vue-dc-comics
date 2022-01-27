@@ -30,6 +30,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '@/style/variables.scss';
     .top-footer{
         background-color: rgb(55, 55, 182);
         width: 100%;
@@ -43,7 +44,7 @@ export default {
             justify-content: center;
             align-items: center;
             gap: 10px;
-            color: white;
+            color: $nav-background;
             img{
                 width: 40px;
                 height: 50px;
