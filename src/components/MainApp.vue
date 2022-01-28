@@ -1,7 +1,7 @@
 <template>
     <main>
         <div class="card-container">
-            <div v-for="(card,i) in cards" :key="i">
+            <div class="item" v-for="(card,i) in cards" :key="i">
                 <div class="card" >
                     <img :src="card.thumb" alt="">
                 </div>
@@ -33,7 +33,7 @@ export default {
             flex-wrap: wrap;
             padding-top: 120px;
             align-items: center;
-            div{
+            .item{
                 margin-bottom: 30px;
                 .card{
                 width: 150px;
