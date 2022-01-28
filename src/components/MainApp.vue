@@ -31,7 +31,8 @@ export default {
             margin: 0 auto;
             column-gap: 20px;
             flex-wrap: wrap;
-            padding-top: 70px;
+            padding-top: 120px;
+            align-items: center;
             div{
                 margin-bottom: 30px;
                 .card{
