@@ -3,7 +3,7 @@
     <navbar-app :nav="nav" />
     <jumbotron-app />  
     <main-app :cards="cards"/>  
-    <footer-app/>
+    <footer-app :socialImg="socialImg"/>
   </div>
 </template>
 
@@ -107,7 +107,29 @@ export default {
     "series": "Catwoman",
     "type": "graphic novel"
   }
-]
+],
+  socialImg:[
+    {
+      id:1,
+      scr:"../assets/footer-facebook.png",
+    },
+    {
+      id:2,
+      scr:"../assets/footer-twitter.png",
+    },
+    {
+      id:3,
+      scr:"../assets/footer-youtube.png",
+    },
+    {
+      id:4,
+      scr:"../assets/footer-pinterest.png",
+    },
+    {
+      id:5,
+      scr:"../assets/footer-periscope.png",
+    },
+  ]
     }
      
   },
