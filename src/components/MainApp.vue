@@ -3,7 +3,7 @@
         <div class="card-container">
             <div class="item" v-for="(card,i) in cards" :key="i">
                 <div class="card" >
-                    <img src="card.thumb" alt="">
+                    <img :src="card.thumb" alt="">
                 </div>
                 <p>{{card.type}}</p>
             </div>

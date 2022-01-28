@@ -3,8 +3,8 @@
         <div class="sign-up">SIGN-UP NOW!</div>
         <div class="follow-us">
             <p>FOLLOW US</p>
-            <img v-for="social in socialImg" :key="social.id" :src=social.src alt="" >
-            <!-- <img src="..\assets\footer-twitter.png" alt="">
+            <img v-for="social in socialImg" :key="social.id" :src="social.scr" alt="" >
+            <!-- <img src="@/assets/footer-twitter.png" alt="">
             <img src="..\assets\footer-youtube.png" alt="">
             <img src="..\assets\footer-pinterest.png" alt="">
             <img src="..\assets\footer-periscope.png" alt=""> -->

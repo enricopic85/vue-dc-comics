@@ -2,7 +2,7 @@
    <footer>
        <top-footer/>
        <central-footer/>
-       <bottom-footer />
+       <bottom-footer/>
    </footer>
 </template>
 
