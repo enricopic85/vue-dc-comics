@@ -111,23 +111,23 @@ export default {
   socialImg:[
     {
       id:1,
-      scr:"../assets/footer-facebook.png",
+      scr:"/footer-facebook.png",
     },
     {
       id:2,
-      scr:"../assets/footer-twitter.png",
+      scr:"/footer-twitter.png",
     },
     {
       id:3,
-      scr:"../assets/footer-youtube.png",
+      scr:"/footer-youtube.png",
     },
     {
       id:4,
-      scr:"../assets/footer-pinterest.png",
+      scr:"/footer-pinterest.png",
     },
     {
       id:5,
-      scr:"../assets/footer-periscope.png",
+      scr:"/footer-periscope.png",
     },
   ]
     }

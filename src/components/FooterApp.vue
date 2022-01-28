@@ -2,7 +2,7 @@
    <footer>
        <top-footer/>
        <central-footer/>
-       <bottom-footer/>
+       <bottom-footer :socialImg="socialImg"/>
    </footer>
 </template>
 
@@ -12,7 +12,9 @@ import CentralFooter from './CentralFooter.vue'
 import TopFooter from './TopFooter.vue'
 export default {
   components: { TopFooter, CentralFooter, BottomFooter },
-    
+    props:{
+      socialImg:Array
+    }
 }
 </script>
 <style lang="scss" scoped>
